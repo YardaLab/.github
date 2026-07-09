@@ -1,38 +1,6 @@
-# CODEOWNERS
-# -----------------------------------------------------------------------------
-# This file defines who is responsible for reviewing and approving changes in
-# each part of the repository. When someone opens a pull request that modifies
-# files covered by a rule below, the listed owners will automatically be
-# requested for review.
-#
-# Format:
-#   <pattern>  @github-username [@github-username ...]
-# Patterns are evaluated in order from top to bottom.
-# -----------------------------------------------------------------------------
+# Repository-specific ownership for YardaLab/.github.
+# Broader organization-wide ownership rules belong in separate governance work.
 
-# Default owners for everything in the repo
-*       @jarda-from-yardalab
-
-# Infrastructure and Terraform
-infra/**          @jarda-from-yardalab
-terraform/**      @jarda-from-yardalab
-
-# Documentation (Docusaurus, MD files, Docs portal)
-docs/**           @jarda-from-yardalab
-.github/**        @jarda-from-yardalab
-
-# CI/CD workflows and automation
-.github/workflows/**   @jarda-from-yardalab
-
-# Source code modules (example patterns)
-core/**           @jarda-from-yardalab
-ylcore/**         @jarda-from-yardalab
-sdk/**            @jarda-from-yardalab
-plugins/**        @jarda-from-yardalab
-
-# Security, compliance, and configuration files
-SECURITY.md       @jarda-from-yardalab
-CODE_OF_CONDUCT.md @jarda-from-yardalab
-LICENSE           @jarda-from-yardalab
-
-# End of CODEOWNERS
+/README.md    @jarda-from-yardalab
+/.github/     @jarda-from-yardalab
+/LICENSE      @jarda-from-yardalab
