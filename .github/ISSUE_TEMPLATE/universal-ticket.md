@@ -1,47 +1,54 @@
-# YardaLab Universal Ticket Template
+# Summary
 
-## Goal
+Briefly describe the problem, question, suggestion, documentation feedback, or discussion topic.
 
-Short statement describing what this issue aims to achieve.
+GitHub Issues are used for public reports, questions, discussion, feedback, and fallback intake.
 
-## Description
+Jira is the canonical system for planned YardaLab work, governance, and delivery tracking.
 
-Explain what needs to be done, why it matters, and how it fits into the system or roadmap.
-Mention any dependencies on other tickets, modules, or repos.
+You do not need a Jira ticket to submit this issue.
 
-## Out of Scope
+## Context
 
-List what is explicitly not part of this issue.
+Explain why this issue matters.
 
-## Technical Notes (optional)
+Include the affected repository, component, documentation page, or workflow when known.
 
-Useful commands, dependencies, or configuration details.
+## Expected behavior or outcome
 
-```
-# Example
-terraform -version
-```
+Describe what you expected to happen or what outcome you would like to achieve.
 
-## Related Work (optional)
+## Actual behavior
 
-* IYI-10 – Initialize Terraform project
-* IYI-33 – Terraform linting setup
+Describe what currently happens.
 
-## Metadata
+Remove this section when it is not applicable.
 
-**Labels:** `<type>` · `<area>`
-**Priority:** `L` / `M` / `H`
-**Assignee:** `<name>`
-**Parent / Epic:** `<epic-id>`
+## Steps to reproduce
 
-## Lifecycle
+Provide steps that can be used to reproduce the problem.
 
-| Status      | Meaning                 |
-| ----------- | ----------------------- |
-| To Do       | Ready for pickup        |
-| In Progress | Work ongoing            |
-| In Review   | Awaiting review/testing |
-| Done        | Merged and validated    |
-| Blocked     | Waiting for dependency  |
+Remove this section when it is not applicable.
 
-This template is universal for all YardaLab projects (ylcore, ylsdk, yldashboard, infra, docs). Keep it modular and consistent.
+1.
+2.
+3.
+
+## Environment
+
+Include relevant environment information when applicable.
+
+Examples:
+
+* repository;
+* operating system;
+* runtime or application version;
+* browser;
+* hardware;
+* deployment environment.
+
+## Additional information
+
+Add relevant logs, screenshots, links, examples, or other supporting information.
+
+Remove sensitive information before submitting.
