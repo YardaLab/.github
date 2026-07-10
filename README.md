@@ -45,7 +45,7 @@ Expected flow:
 ```text
 Idea / Epic / System Epic
 -> Design / Spec when required
--> Documentation Draft
+-> Documentation Draft when required
 -> Task
 -> Branch
 -> Commit
@@ -66,14 +66,15 @@ Jira remains the work management system.
 
 This repository currently provides:
 
-| Path                               | Role                                 | Scope                                                                                                                                                     |
-| ---------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `README.md`                        | Repository overview                  | Explains the purpose, governance relationship, update rules, and boundaries of this repository.                                                           |
-| `LICENSE`                          | Repository license                   | Defines the license for this repository only. It is not an organization-wide default license file.                                                        |
-| `.github/CONTRIBUTING.md`          | Default contribution guidance        | Provides contribution guidance where GitHub applies organization-level defaults and a target repository does not provide its own file.                    |
-| `.github/CODE_OF_CONDUCT.md`       | Default code of conduct              | Provides community conduct guidance where GitHub applies organization-level defaults and a target repository does not provide its own file.               |
-| `.github/PULL_REQUEST_TEMPLATE.md` | Default pull request template        | Provides a default pull request body template where GitHub applies organization-level defaults and a target repository does not provide its own template. |
-| `.github/CODEOWNERS`               | Review ownership for this repository | Defines review ownership for this `.github` repository. It is not an organization-wide default `CODEOWNERS` file for every YardaLab repository.           |
+| Path                                         | Role                                 | Scope                                                                                                                                                     |
+| -------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `README.md`                                  | Repository overview                  | Explains the purpose, governance relationship, update rules, and boundaries of this repository.                                                           |
+| `LICENSE`                                    | Repository license                   | Defines the license for this repository only. It is not an organization-wide default license file.                                                        |
+| `.github/CONTRIBUTING.md`                    | Default contribution guidance        | Provides contribution guidance where GitHub applies organization-level defaults and a target repository does not provide its own file.                    |
+| `.github/CODE_OF_CONDUCT.md`                 | Default code of conduct              | Provides community conduct guidance where GitHub applies organization-level defaults and a target repository does not provide its own file.               |
+| `.github/PULL_REQUEST_TEMPLATE.md`           | Default pull request template        | Provides a default pull request body template where GitHub applies organization-level defaults and a target repository does not provide its own template. |
+| `.github/ISSUE_TEMPLATE/universal-ticket.md` | Default fallback issue template      | Provides general public and fallback issue intake while keeping Jira canonical for planned work, governance, and delivery tracking.                       |
+| `.github/CODEOWNERS`                         | Review ownership for this repository | Defines review ownership for this `.github` repository. It is not an organization-wide default `CODEOWNERS` file for every YardaLab repository.           |
 
 ## Repository structure
 
@@ -82,6 +83,8 @@ This repository currently provides:
 ├── README.md
 ├── LICENSE
 └── .github/
+    ├── ISSUE_TEMPLATE/
+    │   └── universal-ticket.md
     ├── CODE_OF_CONDUCT.md
     ├── CODEOWNERS
     ├── CONTRIBUTING.md

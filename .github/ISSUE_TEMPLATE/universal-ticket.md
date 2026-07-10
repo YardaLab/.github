@@ -1,3 +1,11 @@
+---
+name: General issue
+about: Report a problem, ask a question, suggest an improvement, or provide feedback
+title: ""
+labels: ""
+assignees: ""
+---
+
 # Summary
 
 Briefly describe the problem, question, suggestion, documentation feedback, or discussion topic.
